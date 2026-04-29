@@ -1,0 +1,362 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  
+  <meta http-equiv="Content-Language" content="ru">
+
+  <base href="">
+  
+  <meta name="Reply-to" content="post4ytb@gmail.com">
+
+  
+  <meta name="Keywords" content="Double-sided PCB DIY, 2-сторонняя печатная плата своими руками">
+
+  
+  <meta name="Description" content="Double-sided PCB DIY, 2-сторонняя печатная плата своими руками">
+  <title>2-сторонняя печатная плата своими руками</title>
+
+  
+  
+  <style>
+
+#bn {display:block;}
+
+#bt {display:block;}
+
+  </style>
+</head><body style="background-color: rgb(192, 192, 192);">
+
+
+<h1 align="center"><span lang="EN-US">2-сторонняя печатная
+плата своими руками <br>
+</span></h1>
+
+<h2 style="font-style: italic;" align="center"><span style="" lang="EN-US">Плата для
+<a href="headset.html" target="_blank">проводной гарнитуры</a> стационарного телефона</span></h2>
+
+<br>
+
+<br>
+
+<p align="left"><span style="" lang="EN-US"></span><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span><span style="font-weight: bold; color: rgb(153, 0, 0);">ДЛЯ
+ПРОСМОТРА ПОЛНОМАСШТАБНОГО ИЗОБРАЖЕНИЯ КЛИКНИТЕ ПО КАРТИНКЕ</span></p>
+
+<hr style="width: 100%; height: 2px;">Для
+изготовления платы по описанной методике в&nbsp;PCB-файл,
+подготовленный для заказа плат, нужно&nbsp;внести некоторые
+поправки. <br>
+
+Скопируйте PCB-файл и работайте с копией, так как внесенные поправки
+приведут к уменьшению диаметров всех отверстий.<br>
+
+<br>
+
+<a href="img/01PADholes.jpg" target="_blank"><span style="" lang="EN-US"><span style="font-weight: bold;"><img title="Диаметры 0,35мм" src="img/01PADholes.jpg" alt="Диаметры отверстий" style="border: 0px solid ; width: 201px; height: 161px; float: left;" align="left" hspace="5" vspace="5"></span></span></a><br>
+
+<br>
+
+<br>
+
+Для
+всех отверстий платы, включая переходные, установите&nbsp;диаметр
+0,2мм - это обеспечит вытравливание маленькой площадки в центре
+контакта для попадания сверла даже при ручном сверлении.<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<a href="img/02PCBmarks.jpg" target="_blank"><span style="" lang="EN-US"><span style="font-weight: bold;"><img title="Маркерные линии - для совмещения слоев" src="img/02PCBmarks.jpg" alt="печатная плата своими руками: 2-сторонняя плата - особенности изготовления" style="border: 0px solid ; width: 492px; height: 90px; float: left;" align="left" hspace="5" vspace="5"></span></span></a><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span>
+Обозначаем
+границы печати маркерными линиями (маркерами) - тонкими линиями,
+которые должны совпасть при совмещении рисунков обоих слоев
+двусторонней платы.<br>
+
+<br>
+
+Печать будет выполняться в два этапа, и эти же маркеры при первой
+печати покажут границы будущего отпечатка и его размер.<br>
+
+В P-CAD маркеры можно выполнить в слоях TOP ASSY и BOTTOM ASSY линиями
+толщиной 0,1мм.<br>
+
+Пригодятся
+и переходные контакты с отверстиями левее и правее рисунка платы - если
+их просверлить, будет ясно, как корректировать наклон сверла - об это
+читайте ниже.<br>
+
+<br>
+
+Маркеры отрисовываются в одном слое, например, TOP ASSY.<br>
+
+Так как на бумаге, которая используется для получения отпечатков, есть
+надписи и графика с обратной стороны (см следующий рисунок), желательно
+сделать несколько маркеров в разных местах, тогда будет больше шансов,
+что какой-то из них окажется вне зоны надписей и его будет лучше видно
+на просвет при совмещении двух отпечатков.<br>
+
+<br>
+
+Отрисованные
+маркеры выделяются (SELECT), копируются с перемещением (выделенные
+маркеры перемещаются мышкой при нажатой клавише CTRL), например, на
+один шаг сетки.<br>
+
+Следите, чтобы после этой операции&nbsp;ВЫДЕЛЕНИЕ
+МАРКЕРОВ СОХРАНИЛОСЬ - не делайте других операций до завершения
+описываемых далее действий! <br>
+
+Измените слой на BOTTOM ASSY, а в меню Edit выберите команду Move to
+Layer. <br>
+
+Теперь ВЫДЕЛЕННЫЕ маркеры, оказавшиеся&nbsp; в слое BOTTOM ASSY,
+совмещаются с маркерами в слое TOP ASSY.<br>
+
+<hr style="width: 100%; height: 2px;"><span style="" lang="EN-US"></span>
+<p align="left"><a href="img/03Paper333.jpg" target="_blank"><span style="" lang="EN-US"><span style="font-weight: bold;"><img title="Китайская самоклейка &quot;333&quot;" src="img/03Paper333.jpg" alt="Самоклейка" style="border: 0px solid ; width: 205px; height: 182px; float: left;" align="left" hspace="5" vspace="5"></span></span></a></p>
+
+Отпечаток изображения платы выполняется на лазерном принтере
+на подложке самоклеящейся пленки. <br>
+
+На рисунке изображены лицевая сторона самоклейки и ее подложка с
+надписями "333".<br>
+
+Подложка имеет глянцевую поверхность, что позволяет легко отделить от
+нее клеевую поверхность самоклейки, <br>
+
+на
+подложку хорошо ложится тонер; при нагреве утюгом бутерброда из
+подложки с отпечатком и фольгированного стеклотекстолита тонер
+прилипает к
+фольге платы, <br>
+
+а подложка от самоклейки после остывания легко СНИМАЕТСЯ
+С ФОЛЬГИ ПЛАТЫ БЕЗ ОТМАЧИВАНИЯ.<br>
+
+<br>
+
+&nbsp;<br>
+
+<br>
+
+<br>
+
+<hr style="width: 100%; height: 2px;">Начнем с печати
+одной стороны платы. Действия для печати второй стороны платы будут
+такими же.<br>
+
+<p align="left"><a href="img/04BorderPaper.jpg" target="_blank"><span style="" lang="EN-US"><span style="font-weight: bold;"><img title="Границы платы" src="img/04BorderPaper.jpg" alt="Границы платы" style="border: 0px solid ; width: 314px; height: 120px; float: left;" align="left" hspace="5" vspace="5"></span></span></a>
+&nbsp;Сначала на бумаге отпечатаем границы, в которых при следующей
+печати окажется рисунок нашей платы</p>
+
+<p align="left">&nbsp;Просмотрите картинку в полном
+масштабе, чтобы увидеть<br>
+на рисунке:</p>
+
+<p align="left"><br>
+расположенный внизу вырезанный кусок самоклейки, размеры которого
+превышают размеры рисунка с маркерами,&nbsp;</p>
+
+<p align="left">вверху - лист бумаги
+с&nbsp;отпечатанными на ней маркерами, которые выполняют две
+функции:&nbsp;</p>
+
+<p align="left">&nbsp;&nbsp;&nbsp;
+-показывают, где будет отпечатана плата &nbsp;</p>
+
+<p align="left">&nbsp;&nbsp;&nbsp; -наличие
+маркеров на обоих отпечатках платы облегчит их последующее совмещение.</p>
+
+<hr style="width: 100%; height: 2px;">
+<p align="left"><a href="img/05GluePaper.jpg" target="_blank"><span style="" lang="EN-US"><span style="font-weight: bold;"><img title="Приклеенная самоклейка" src="img/05GluePaper.jpg" alt="Приклеенная самоклейка" style="border: 0px solid ; width: 338px; height: 97px; float: left;" align="left" hspace="5" vspace="5"></span></span></a></p>
+
+&nbsp;Смазываем
+самоклейку со стороны подложки по краям слева и справа клеящим
+карандашом и приклеиваем к бумаге так, чтобы маркеры были накрыты
+самоклейкой<br>
+
+<br>
+
+<span style="font-weight: bold;"><br>
+<br>
+<br>
+</span>
+<p align="left"><a href="img/06DelCover.jpg" target="_blank"><span style="" lang="EN-US"><span style="font-weight: bold;"><img title="Отделяем самоклейку от подложки" src="img/06DelCover.jpg" alt="Отделяем самоклейку от подложки" style="border: 0px solid ; width: 381px; height: 109px;" align="left" hspace="5" vspace="5"></span></span></a>Теперь
+отделяем самоклейку от подложки скальпелем и снимаем &nbsp;ее<br>
+</p>
+
+<span style="color: rgb(153, 0, 0); font-weight: bold;">Не
+касайтесь глянцевой поверхности подложки руками!</span><br>
+
+<br>
+
+<hr style="width: 100%; height: 2px;"><a href="img/07Printed.jpg" target="_blank"><span style="" lang="EN-US"><span style="font-weight: bold;"><img title="Отпечатки обеих сторон платы" src="img/07Printed.jpg" alt="Отпечатки" style="border: 0px solid ; width: 560px; height: 217px;" align="left" hspace="5" vspace="5"></span></span></a>Повторно
+печатаем на той же бумаге, но уже с приклеенной подложкой от самоклейки.<br>
+
+На картинке сверху: еще приклеенный к бумаге отпечаток одной стороны
+платы,<br>
+
+снизу: ранее отпечатанное изображение другой стороны платы - оба
+изображения зеркальны относительно будущего вида самой платы
+<hr style="width: 100%; height: 2px;">
+<p align="left"><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span><a href="img/08Clean.jpg" target="_blank"><span style="" lang="EN-US"><span style="font-weight: bold;"><img title="Удаление глянца для прочного склеивания" src="img/08Clean.jpg" alt="Очистка глянца" style="border: 0px solid ; width: 338px; height: 161px;" align="left" hspace="5" vspace="5"></span></span></a>Чтобы
+склеить два рисунка, нужно соскрести по краям глянец, это можно сделать
+скальпелем. Важно ни на каком этапе не касаться рисунка. Поэтому удобно
+работать скальпелем, когда подложка еще осталась приклеенной к бумаге
+после печати.<br>
+Скрести скальпелем по подложке надо от рисунка, чтобы отходы не
+попадали на рисунок.<br>
+По окончании работы проконтролируйте чистоту рисунка</p>
+
+<p align="left"><a href="img/09Glue.jpg" target="_blank"><span style="" lang="EN-US"><span style="font-weight: bold;"><img title="Склеивание" src="img/09Glue.jpg" alt="Склеивание" style="border: 0px solid ; width: 333px; height: 249px;" align="left" hspace="5" vspace="5"></span></span></a>Зачищенные
+места смазать клеящим карандашом и склеить, постаравшись совместить обе
+картинки.<br>
+Клей высохнет не сразу, что позволит выполнить тщательное совмещение с
+использованием линзы и источника света.<br>
+</p>
+
+<p align="left"><a href="img/10LengthLight.jpg" target="_blank"><span style="" lang="EN-US"><span style="font-weight: bold;"><img title="Линза и LED-фонарик - для просвечивания маркеров на отпечатках" src="img/10LengthLight.jpg" alt="Линза и LED-фонарик" style="border: 0px solid ; width: 340px; height: 254px;" align="left" hspace="5" vspace="5"></span></span></a>Для
+совмещения обоих рисунков понадобится линза и
+источник света, желательно, с узкой диаграммой направленности - удобно
+использовать светодиодные фонарики: у них яркий свет, а бумаги
+сантиметровой ширины с изображением вашей платы будет вполне
+достаточно,
+чтобы их полностью накрыть и защитить глаза от прямой засветки.<br>
+Как
+видно на картинке, светодиодный фонарик охвачен алюминиевой проволокой
+в черной изоляции, которая выполняет функцию подставки, позволяя
+направить луч в нужную сторону.<span style="" lang="EN-US"><span style="font-weight: bold;"></span></span></p>
+
+<p align="left"><a href="img/11Superpose.jpg" target="_blank"><span style="" lang="EN-US"><span style="font-weight: bold;"><img title="Совмещение картинок" src="img/11Superpose.jpg" alt="Совмещение" style="border: 0px solid ; width: 270px; height: 201px;" align="left" hspace="5" vspace="5"></span></span></a>Для
+окончательного совмещения удобно пользоваться отпечатанными маркерами в
+виде расположенных перпендикулярно с зазором тонких линий.<br>
+Дополнительный контроль - просвет в местах совмещения переходных
+отверстий.</p>
+
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold; color: rgb(204, 0, 0);">Подготовка
+фольгированного стеклотекстолита к нанесению рисунка</span><br>
+
+<p align="left"><span style="" lang="EN-US"><a href="img/12work.jpg" target="_blank"><span style="font-weight: bold;"><img title="Размер заготовки" src="img/12work.jpg" alt="Заготовка" style="border: 0px solid ; width: 216px; height: 162px;" align="left" hspace="5" vspace="5"></span></a>На фото:
+сверху - "конверт" из склеенных отпечатков, снизу - заготовка.&nbsp;<br>
+Для
+заготовки используйте стеклотекстолит с отсутствием царапин на
+фольге.&nbsp;Заготовка из фольгированного стеклотекстолита должна
+быть
+миллиметров на 5 больше рисунка - кроме того, что&nbsp;заготовку с
+припусками легче расположить под рисунком,&nbsp;царапины,
+появляющиеся
+по краю при обрезании заготовки, не попадут в зону рисунка, а заусенцы
+можно будет сточить напильником.<br>
+Если заготовка вырезана ножницами
+по металлу или гильотиной, она может поцарапаться по краям и изогнуться
+(пойти винтом), постарайтесь выровнять ее, надавливая заготовку
+углами&nbsp;на жесткую поверхность.</span></p>
+
+<p align="left"><a href="img/13filing.jpg" target="_blank"><span style="" lang="EN-US"><span style="font-weight: bold;"><img title="Обработка напильником" src="img/13filing.jpg" alt="Обработка напильником" style="border: 0px solid ; width: 259px; height: 119px;" align="left" hspace="5" vspace="5"></span></span></a><span style="" lang="EN-US"><span style="font-weight: bold; color: rgb(204, 0, 0);">После
+выравнивания</span>
+обточите заготовку напильником, держа его под острым углом к
+поверхности - это дополнительно выровняет края заготовки (не будет
+подъемов на краях), и утюг будет лучше прижимать рисунок в центре</span></p>
+
+<p align="left"><span style="" lang="EN-US"><span style="font-weight: bold;"><a href="img/14work_rdy.jpg" target="_blank"><img title="Обработанная заготовка" src="img/14work_rdy.jpg" alt="Обработанная заготовка" style="border: 0px solid ; width: 260px; height: 128px;" align="left" hspace="5" vspace="5"></a> </span>Заготовка
+с обработанными краями.</span></p>
+
+<span style="" lang="EN-US"><a href="img/15duck.jpg" target="_blank"><img title="Гель для обработки поверхности" src="img/15duck.jpg" alt="Гель для обработки поверхности" style="border: 0px solid ; width: 260px; height: 195px;" align="left" hspace="5" vspace="5"></a>Для очис</span><span style="" lang="EN-US">т</span><span style="" lang="EN-US">ки заготовки удобно
+использовать какой-либо
+бытовой кислотосодержащий гель. <br>
+<span style="color: rgb(204, 0, 0); font-weight: bold;">Нет
+необходимости зачищать заготовку наждаком</span> - мелкие
+царапины приведут к неровностям краев дорожек.</span>
+<p align="left"><span style="" lang="EN-US"><span style="font-weight: bold;"><a href="img/16drop.jpg" target="_blank"><img title="Гель для обработки поверхности" src="img/16drop.jpg" alt="Гель для обработки поверхности" style="border: 0px solid ; width: 254px; height: 122px;" align="left" hspace="5" vspace="5"></a> </span>Капните
+немного геля на поверхность заготовки</span></p>
+
+<span style="" lang="EN-US"><span style="font-weight: bold;"><a href="img/17glove.jpg" target="_blank"><img title="Очистка гелем" src="img/17glove.jpg" alt="Очистка гелем" style="border: 0px solid ; width: 209px; height: 191px;" align="left" hspace="5" vspace="5"></a>
+</span>и разотрите его по поверхности. <span style="color: rgb(204, 0, 0); font-weight: bold;">Не
+используйте для этого вату или ткань!</span> </span><span style="" lang="EN-US">На торцах платы</span><span style="" lang="EN-US">
+останутся волокна,
+&nbsp;которые могут попасть под рисунок. Лучше растереть каплю
+руками в резиновых перчатках.</span><br>
+
+<p align="left"><span style="" lang="EN-US"><a href="img/18water.jpg" target="_blank"><span style="font-weight: bold;"><img title="После промывки" src="img/18water.jpg" alt="После промывки" style="border: 0px solid ; width: 200px; height: 131px;" align="left" hspace="5" vspace="5"></span></a>
+<span style="color: rgb(204, 0, 0); font-weight: bold;">Больше
+не касайтесь поверхности заготовки руками, держите ее за торцы</span>.
+После промывки водой, на поверхности заготовки могут остаться капли.
+Чем меньше повреждений и оставшихся загрязнений на поверхности, тем
+меньше капель.</span></p>
+
+<span style="" lang="EN-US"><span style="font-weight: bold;"><a href="img/19stream.jpg" target="_blank"><img title="Смывка капель воды" src="img/19stream.jpg" alt="Смывка капель воды" style="border: 0px solid ; width: 216px; height: 191px;" align="left" hspace="5" vspace="5"></a>
+</span>капли
+можно смыть тонкой струйкой воды, надо подставить заготовку так, чтобы
+струя захватила каплю, затем медленно выводить плату из-под струи,
+направляя плату так, чтобы струя в итоге оказалась на одном из углов
+платы. Если следы от капель остались, используйте для их удаления рулон
+туалетной бумаги - протрите заготовку гранью рулона. Приложите к рулону
+и торцы платы.<br>
+<span style="font-weight: bold;"></span></span><span style="" lang="EN-US"><span style="font-weight: bold;"><a href="img/20dry.jpg" target="_blank"><img title="Сушка" src="img/20dry.jpg" alt="Сушка" style="border: 0px solid ; width: 217px; height: 281px;" align="left" hspace="5" vspace="5"></a> </span>Оставьте
+плату в вертикальном положении для окончательной просушки - <span style="color: rgb(204, 0, 0); font-weight: bold;">не
+вставляйте плату с непросохшими гранями в отпечаток</span>.<br>
+<br>
+<span style="font-weight: bold;"></span></span><span style="" lang="EN-US"><span style="font-weight: bold;"><a href="img/21iron.jpg" target="_blank"><img title="Утюг" src="img/21iron.jpg" alt="Утюг" style="border: 0px solid ; width: 303px; height: 195px;" align="left" hspace="5" vspace="5"></a> </span>для
+перенесения рисунка нужна хлопчатобумажная салфетка, утюг с ровной
+подошвой, в качестве рабочей поверхности подойдет гладильная доска.<br>
+Заготовка
+в конверте из склеенных отпечатков (на картинке она посередине)
+&nbsp;накрывается одним слоем ткани. Утюг включается на средний
+нагрев
+(шерсть), прогревается.<br>
+После прогрева утюга придавите им заготовку
+в конверте, накрытую тканью, подержите несколько секунд неподвижно,
+чтобы тонер пристал к фольге, затем можно двигать утюг по ткани.<br>
+<span style="color: rgb(204, 0, 0); font-weight: bold;">Следите,
+чтобы ткань не сдвигалась утюгом&nbsp;</span>(обычно этого не
+происходит).<br>
+Если вы не уверены, что заготовка под утюгом, можно приподнять утюг,
+затем установить его точно над платой.<br>
+<span style="color: rgb(204, 0, 0); font-weight: bold;">Нет
+необходимости двигать по плате ребром подошвы утюга.<br>
+</span></span><span style="" lang="EN-US">Следите
+лишь за тем, чтобы утюг равномерно прилегал к поверхности заготовки во
+время движения, покачивайте его иногда, чтобы почувствовать,
+&nbsp;что
+он придавливает всю поверхность заготовки.<br>
+Достаточно накатывать
+рисунок с одной стороны в течение 50-60 секунд (регулировку
+температуры, &nbsp;вероятно, придется подбирать для вашего утюга
+экспериментально).<br>
+<span style="color: rgb(204, 0, 0); font-weight: bold;">Сразу
+же переверните ГОРЯЧУЮ заготовку на другую сторону и повторите процедуру</span>:
+подложка самоклейки 333 после остывания может самопроизвольно
+отделиться от тонера и заготовки.<br>
+Дайте
+пакету из двух подложек и заготовки остыть. После остывания аккуратно
+снимите подложки с одной, затем с другой стороны заготовки. Во время
+удаления подложек смотрите, не осталось ли на них тонера, это поможет
+понять, хорошо ли перенесся рисунок на заготовку.<br>
+</span><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span>
+<p align="left"><span style="" lang="EN-US"><span style="font-weight: bold;"><a href="img/22layer1.jpg" target="_blank"><img title="Тонер на плате" src="img/22layer1.jpg" alt="Тонер на плате" style="border: 0px solid ; width: 302px; height: 119px;" align="left" hspace="5" vspace="5"></a>&nbsp;</span>рисунок
+нанесен на заготовку. Тщательно проверяем, нет ли дефектов, для этого
+лучше воспользоваться линзой.</span></p>
+
+<span style="" lang="EN-US"><span style="font-weight: bold;"><a href="img/24markers.jpg" target="_blank"><img title="Перманентные маркеры" src="img/24markers.jpg" alt="Перманентные маркеры" style="border: 0px solid ; width: 311px; height: 142px;" align="left" hspace="5" vspace="5"></a>
+</span>Если
+есть места, к которым не прилип тонер, закрасьте их тонким перманентным
+маркером (маркеры 1мм, S или F). На заготовке дефектов нет, для
+тестирования маркера нанесем им небольшое пятно на заготовку (на
+картинке с маркерами на заготовку нанесено пятно выше рисунка).</span><span style="font-weight: bold;"><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</span>
+<hr style="width: 100%; height: 2px;">
+</body></html>
